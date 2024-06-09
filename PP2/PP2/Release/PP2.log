@@ -1,8 +1,0 @@
-﻿  HelloWorld.cpp
-C:\Users\AM_admin\Desktop\PersonalProject\PP2\PP2\HelloWorld.cpp(105,15): warning C4101: 'ps': unreferenced local variable
-  Generating code
-  2 of 2 functions (100.0%) were compiled.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  PP2.vcxproj -> C:\Users\AM_admin\Desktop\PersonalProject\PP2\Release\PP2.exe

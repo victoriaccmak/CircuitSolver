@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CircuitSolver.View.AboutPage"
+             Title="About"
+             BackgroundColor="White"
+             xmlns:viewmodel="clr-namespace:CircuitSolver.ViewModel"
+             xmlns:model="clr-namespace:CircuitSolver.Model"
+             x:DataType="viewmodel:AboutViewModel">
+    <!--
+Author: Victoria Mak
+File Name: AboutPage.xaml
+Project Name: CircuitSolver
+Creation Date: May 20, 2024
+Modified Date: 
+Description: A cross platform app that will solve linear circuits
+-->
+
+    <VerticalStackLayout>
+        <!--<Label 
+            Text="About"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            FontSize="20"/>
+        <Label 
+            Text="Linear Circuit Solver is an application developed by Victoria Mak, a Computer Engineering student at the University of Waterloo. It is able to solve nodal voltages and current through nodal analysis and mesh analysis respectively. Simply add your nodes and elements of your circuit and view the answer with steps included!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            FontSize="15"/>
+        <Label 
+            Text="Usage"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            FontSize="20"/>
+        <Label 
+            Text="Home is where all the circuit projects are listed. Tap your desired circuit to view or press the New button to create a new circuit project."
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            FontSize="15"/>
+        <Label 
+            Text="To create a new project, you must name it and select a project type. Once created, you can view and add nodes and elements to it with the navigation bar at the top. The Circuit icon will show a diagram of your circuit (note that it may look different from a circuit you visualized but it is correct). Click the Solve icon when you are ready to get results. It will prompt you for a ground node (required)."
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" 
+            FontSize="15"/>-->
+    </VerticalStackLayout>
+</ContentPage>

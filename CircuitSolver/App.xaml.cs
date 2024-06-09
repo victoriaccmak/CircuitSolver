@@ -1,4 +1,6 @@
-﻿namespace CircuitSolver
+﻿using CircuitSolver.View;
+
+namespace CircuitSolver
 {
     public partial class App : Application
     {

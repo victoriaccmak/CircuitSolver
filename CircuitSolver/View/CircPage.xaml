@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CircuitSolver.View.CircPage"
+             Title="{Binding Circuit.Name}"
+             BackgroundColor="White"             
+             xmlns:viewmodel="clr-namespace:CircuitSolver.ViewModel"
+             xmlns:model="clr-namespace:CircuitSolver.Model"
+             x:DataType="viewmodel:CircViewModel">
+    <!--
+Author: Victoria Mak
+File Name: CircPage.xaml
+Project Name: CircuitSolver
+Creation Date: May 20, 2024
+Modified Date: 
+Description: A cross platform app that will solve linear circuits
+-->
+    
+    <Grid 
+        RowDefinitions="100,Auto" 
+        ColumnDefinitions="*,*,*,*">
+        <!--<ImageButton 
+            Grid.Row="0" 
+            Grid.Column="0"
+            Aspect="AspectFit"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Source"
+                        Value="n_img_black.png"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Source"
+                                Value="n_img_black.png"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </ImageButton>
+        <ImageButton 
+            Grid.Row="0" 
+            Grid.Column="1"
+            Aspect="AspectFit"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="Source"
+                Value="n_img_black.png"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </ImageButton>-->
+    </Grid>
+</ContentPage>

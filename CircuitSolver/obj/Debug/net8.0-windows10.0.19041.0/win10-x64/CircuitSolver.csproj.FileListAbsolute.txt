@@ -176,3 +176,17 @@ C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows
 C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\aboutimg.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\b_img_black.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circ_icon_img_black.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\filterimg.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\homeimg.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\n_img_black.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plusimg.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\searchimg.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settingsimg.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solve_img_black.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sortimg.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\starfilledimg.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\starunfilledimg.scale-100.png
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tTr5HmUoXvS6W85dm2jXLjbWKULZfCskJ7JlZ2OrDhiWOCpLpVZwPRxGRiqoXplN4a8gsIH6MJgZv2Wpa1yW/g==",
+  "dgSpecHash": "3lGalRpN7riTwQLj6X1ygqeznAA82askVHX2YkYfFD99h73P9ICJcLJONogjIW6H0IThuG56ZJkY3ZDoMXG4Ig==",
   "success": true,
   "projectFilePath": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\CircuitSolver.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AM_admin\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\AM_admin\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\AM_admin\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\AM_admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

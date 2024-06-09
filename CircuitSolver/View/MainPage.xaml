@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CircuitSolver.View.MainPage"
+             BackgroundColor="White"
+             Title="{Binding DebugString}"
+             xmlns:viewmodel="clr-namespace:CircuitSolver.ViewModel"
+             x:DataType="viewmodel:MainViewModel"
+             xmlns:model="clr-namespace:CircuitSolver.Model">
+    <!--
+Author: Victoria Mak
+File Name: MainPage.xaml
+Project Name: CircuitSolver
+Creation Date: May 20, 2024
+Modified Date: 
+Description: A cross platform app that will solve linear circuits
+-->
+
+    <Grid x:Name="myGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Navigation bar-->
+        <Grid 
+            Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.7*"/>
+                <ColumnDefinition Width="0.1*"/>
+                <ColumnDefinition Width="0.1*"/>
+                <ColumnDefinition Width="0.1*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="My Circuits"
+                   TextColor="Black"
+                   FontSize="25"
+                   BackgroundColor="Green"/>
+            <ImageButton 
+                Grid.Column="1"
+                Source="filterimg.png"
+                Background="White"
+                Aspect="AspectFit"
+                Command="{Binding FilterClickedCommand}"/>
+            <ImageButton 
+                Grid.Column="2"
+                Source="searchimg.png"
+                Background="White"
+                Aspect="AspectFit"
+                Command="{Binding SearchClickedCommand}"/>
+            <ImageButton 
+                Grid.Column="3"
+                Source="sortimg.png"
+                Background="White"
+                Aspect="AspectFit"
+                Command="{Binding SortClickedCommand}"/>
+        </Grid>
+
+        <ScrollView 
+            Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <!--Filter tool-->
+                <Frame 
+                    IsEnabled="{Binding FilterSelected}" 
+                    IsVisible="{Binding FilterSelected}" 
+                    Grid.Row="0" 
+                    HeightRequest="200" 
+                    BackgroundColor="Beige">
+                    <Grid 
+                        ColumnDefinitions="Auto,*,Auto,*" 
+                        RowDefinitions="Auto,*,*,*">        
+                        <Label 
+                            Text="Select Filters:"
+                            Grid.ColumnSpan="4" 
+                            FontSize="18" 
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"/>
+                        <CheckBox 
+                            IsChecked="{Binding FilterChecks[0]}"
+                            Grid.Row="1"
+                            VerticalOptions="Center"/>
+                        <Label 
+                            Text="AC" 
+                            Grid.Column="1"
+                            Grid.Row="1"
+                            TextColor="Black"
+                            VerticalOptions="Center"/>
+                        <CheckBox 
+                            IsChecked="{Binding FilterChecks[1]}"
+                            Grid.Column="2"
+                            Grid.Row="1"
+                            VerticalOptions="Center"/>
+                        <Label 
+                            Text="DC" 
+                            Grid.Column="3"
+                            Grid.Row="1"
+                            TextColor="Black"
+                            VerticalOptions="Center"/>
+                        <CheckBox 
+                            IsChecked="{Binding FilterChecks[2]}"
+                            Grid.Column="0"
+                            Grid.Row="2"
+                            VerticalOptions="Center"/>
+                        <Label 
+                            Text="First Order" 
+                            Grid.Column="1"
+                            Grid.Row="2"
+                            TextColor="Black"
+                            VerticalOptions="Center"/>
+                        <CheckBox 
+                            IsChecked="{Binding FilterChecks[3]}"
+                            Grid.Column="2"
+                            Grid.Row="2"
+                            VerticalOptions="Center"/>
+                        <Label 
+                            Text="Favorites" 
+                            Grid.Column="3"
+                            Grid.Row="2"
+                            TextColor="Black"
+                            VerticalOptions="Center"/>
+                        <Button Text="Clear"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            Grid.Row="3"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Red"
+                            TextColor="Black"
+                            Command="{Binding ClearFilterCommand}"/>
+                        <Button Text="Go"
+                            Grid.Column="2"
+                            Grid.ColumnSpan="2"
+                            Grid.Row="3"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Blue"
+                            TextColor="Black"
+                            Command="{Binding FilterCommand}"/>
+                    </Grid>
+                </Frame>
+
+                <!--Search tool-->
+                <Grid
+                    RowDefinitions="*,*"
+                    IsEnabled="{Binding SearchSelected}" 
+                    IsVisible="{Binding SearchSelected}" 
+                    Grid.Row="1" 
+                    HeightRequest="400">
+                    <Frame 
+                        Grid.Row="0">
+                        <Grid
+                            RowDefinitions="Auto,Auto"
+                            ColumnDefinitions="0.8*,0.2*">
+                            <Label 
+                                Text="Search By Name"
+                                Grid.ColumnSpan="2" 
+                                FontSize="18" 
+                                HorizontalOptions="Center"/>
+                            <Entry 
+                                Text="{Binding SearchNameText}"
+                                Grid.Row="1"/>
+                            <Button 
+                                Text="Go"
+                                Grid.Column="1"
+                                Grid.Row="1"
+                                BackgroundColor="Blue"
+                                TextColor="Black"
+                                Command="{Binding SearchForNameCommand}"/>
+                        </Grid>
+                    </Frame>
+
+                    <Frame 
+                        Grid.Row="1">
+                        <Grid
+                            RowDefinitions="Auto,Auto"
+                            ColumnDefinitions="0.8*,0.2*">
+                            <Label 
+                                Text="Search By Date"
+                                Grid.ColumnSpan="2" 
+                                FontSize="18" 
+                                HorizontalOptions="Center"/>
+                            <DatePicker 
+                                MinimumDate="01/01/2024"
+                                MaximumDate="{Binding MaxDate}"
+                                Date="{Binding SearchDate}"
+                                Grid.Row="1"
+                                HorizontalOptions="Center"/>
+                            <Button 
+                                Text="Go"
+                                Grid.Column="1"
+                                Grid.Row="1"
+                                BackgroundColor="Blue"
+                                TextColor="Black"
+                                Command="{Binding SearchForDateCommand}"/>
+                        </Grid>
+                    </Frame>
+                </Grid>
+
+                <!--Sort tool-->
+                <Grid
+                    RowDefinitions="*,*,*,*,Auto"
+                    IsEnabled="{Binding SortSelected}" 
+                    IsVisible="{Binding SortSelected}" 
+                    Grid.Row="2" 
+                    HeightRequest="200" 
+                    BackgroundColor="LightBlue">
+                    <Label 
+                        Text="Sort By:"
+                        FontSize="18" 
+                        HorizontalOptions="Start"/>
+                    <Grid
+                        Grid.Row="1"
+                        ColumnDefinitions="*,*"
+                        RadioButtonGroup.GroupName="sortTypes"
+                        RadioButtonGroup.SelectedValue="{Binding SortTypeSelection}">
+                        <RadioButton 
+                            Content="Name"
+                            Value="0"
+                            TextColor="Black"
+                            Grid.Column="0"/>
+                        <RadioButton 
+                            Content="Date"
+                            Value="1"
+                            TextColor="Black"
+                            Grid.Column="1"/>
+                    </Grid>
+                    <Label 
+                        Grid.Row="2"
+                        Text="Order:"
+                        FontSize="18" 
+                        HorizontalOptions="Start"/>
+                    <Grid
+                        Grid.Row="3"
+                        ColumnDefinitions="*,*"
+                        RadioButtonGroup.GroupName="sortOrder"
+                        RadioButtonGroup.SelectedValue="{Binding SortOrderSelection}">
+                        <RadioButton 
+                            Content="Ascending"
+                            Value="0"
+                            TextColor="Black"
+                            Grid.Column="0"/>
+                        <RadioButton 
+                            Content="Descending"
+                            Value="1"
+                            TextColor="Black"
+                            Grid.Column="1"/>
+                    </Grid>
+                    <Button 
+                        Text="Go"
+                        Grid.Column="1"
+                        Grid.Row="4"
+                        HorizontalOptions="End"
+                        BackgroundColor="Blue"
+                        TextColor="Black"
+                        Margin="0,0,10,10"
+                        Command="{Binding SortCommand}"/>
+                </Grid>
+
+                <!--Filter label-->
+                <Grid 
+                    Grid.Row="3"
+                    Padding="10"
+                    ColumnDefinitions="0.75*, 0.25*"
+                    IsEnabled="{Binding FilterOn}"
+                    IsVisible="{Binding FilterOn}">
+                    <Label 
+                        Text="{Binding FilterLabel}"
+                        TextColor="Black"/>
+                    <Button
+                        Text="Clear"
+                        BackgroundColor="Gold"
+                        Grid.Column="1"
+                        Command="{Binding ClearFilterCommand}"/>
+                </Grid>
+
+                <!--Name search label-->
+                <Grid 
+                    Grid.Row="4"
+                    Padding="10"
+                    ColumnDefinitions="0.75*, 0.25*"
+                    IsEnabled="{Binding NameSearched}"
+                    IsVisible="{Binding NameSearched}">
+                    <Label 
+                        Text="{Binding SearchNameLabel}"
+                        TextColor="Black"/>
+                    <Button
+                        Text="Clear"
+                        BackgroundColor="Gold"
+                        Grid.Column="1"
+                        Command="{Binding ClearNameSearchCommand}"/>
+                </Grid>
+
+                <!--Date search label-->
+                <Grid 
+                    Grid.Row="5"
+                    Padding="10"
+                    ColumnDefinitions="0.75*, 0.25*"
+                    IsEnabled="{Binding DateSearched}"
+                    IsVisible="{Binding DateSearched}">
+                    <Label 
+                        Text="{Binding SearchDateLabel}"
+                        TextColor="Black"/>
+                    <Button
+                        Text="Clear"
+                        BackgroundColor="Gold"
+                        Grid.Column="1"
+                        Command="{Binding ClearDateSearchCommand}"/>
+                </Grid>
+
+                <!--Circuits collection-->
+                <CollectionView 
+                    Grid.Row="7" 
+                    ItemsSource="{Binding DispCircuits}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate 
+                            x:DataType="model:Circuit">
+                            <SwipeView>
+                                <SwipeView.RightItems>
+                                    <SwipeItems>
+                                        <SwipeItem 
+                                            Text="Delete"
+                                            BackgroundColor="Red"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=DeleteCommand}"
+                                            CommandParameter="{Binding .}"/>
+                                    </SwipeItems>
+                                </SwipeView.RightItems>
+                                <Grid 
+                                    Padding="8">
+                                    <Frame 
+                                        HeightRequest="100" 
+                                        BackgroundColor="White" 
+                                        CornerRadius="20" 
+                                        HasShadow="true">
+                                        <Frame.Shadow>
+                                            <Shadow 
+                                                Brush="Black"
+                                                Offset="8,8"
+                                                Radius="50"
+                                                Opacity="0.2"/>
+                                        </Frame.Shadow>
+                                        <Grid 
+                                             ColumnDefinitions="0.9*,0.1*">
+                                            <VerticalStackLayout 
+                                                Spacing="0">
+                                                <Label
+                                                    FontSize="20"
+                                                    Text="{Binding Name}"
+                                                    TextColor="Black"/>
+                                                <Label 
+                                                    FontSize="12"
+                                                    Text="{Binding DateAsString}"
+                                                    TextColor="Black"/>
+                                                <Label 
+                                                    FontSize="12"
+                                                    Text="{Binding TypeAsString}"
+                                                    TextColor="Black"/>
+                                            </VerticalStackLayout>
+                                            <ImageButton 
+                                                Source="{Binding FaveImg}" 
+                                                Grid.Column="1" 
+                                                Aspect="AspectFit" 
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=FavoriteCommand}"
+                                                CommandParameter="{Binding .}"/>
+                                            <!--Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=FavoriteCommand-->
+                                        </Grid>
+                                    </Frame>
+                                </Grid>
+                            </SwipeView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CircuitSolver.View.NewCircPage"
+             Title="Creat a New Circuit"
+             BackgroundColor="White"             
+             xmlns:viewmodel="clr-namespace:CircuitSolver.ViewModel"
+             xmlns:model="clr-namespace:CircuitSolver.Model"
+             x:DataType="viewmodel:NewCircViewModel">
+    <!--
+Author: Victoria Mak
+File Name: NewCircPage.xaml
+Project Name: CircuitSolver
+Creation Date: May 20, 2024
+Modified Date: 
+Description: A cross platform app that will solve linear circuits
+-->
+
+    <Grid RowDefinitions="Auto, Auto,*" Padding="10">
+        <StackLayout Padding="10" Spacing="5">
+            <Label 
+                Text="Name"
+                TextColor="Black"
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" />
+            <Entry 
+                Placeholder="Enter circuit name"
+                Text="{Binding Text}"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" 
+                     RadioButtonGroup.GroupName="types"
+                     RadioButtonGroup.SelectedValue="{Binding Selection}">
+            <Label
+                Text="Select a Type of Question:"
+                TextColor="Black"/>
+            <RadioButton Content="DC"
+                         Value="0"
+                         TextColor="Black"/>
+            <RadioButton Content="AC"
+                         Value="1"
+                         TextColor="Black"/>
+            <RadioButton Content="First Order"
+                         Value="2"
+                         TextColor="Black"/>
+            <Label Text="{Binding Verification}"
+                   TextColor="Black"/>
+        </StackLayout>
+        <Button 
+            Grid.Row="2"
+            VerticalOptions="End"
+            HorizontalOptions="End"
+            Text="Create"
+            BackgroundColor="Gold"
+            TextColor="Black"
+            WidthRequest="100"
+            HeightRequest="70"
+            Command="{Binding CreateCommand}"/>
+    </Grid>
+</ContentPage>

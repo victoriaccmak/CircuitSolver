@@ -29,29 +29,33 @@
     <AppXManifest Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-09T16:38:15.905</Modified>
+      <Modified>2024-06-09T18:43:28.144</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-09T16:38:15.676</Modified>
+      <Modified>2024-06-09T18:43:27.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CircuitSolver.runtimeconfig.json">
       <PackagePath>CircuitSolver.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-09T16:38:15.111</Modified>
+      <Modified>2024-06-09T18:40:31.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CircuitSolver.dll">
       <PackagePath>CircuitSolver.dll</PackagePath>
-      <Modified>2024-06-09T16:38:13.681</Modified>
+      <Modified>2024-06-09T18:43:25.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CircuitSolver.exe</PackagePath>
-      <Modified>2024-06-09T16:38:13.702</Modified>
+      <Modified>2024-06-09T18:43:26.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-06-09T16:37:14.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\Resources\AppIcon\appiconfg.svg">
+      <PackagePath>Resources\AppIcon\appiconfg.svg</PackagePath>
+      <Modified>2024-06-09T16:37:14.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -80,6 +84,10 @@
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-06-09T16:37:14.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\aboutimg.scale-100.png">
+      <PackagePath>aboutimg.scale-100.png</PackagePath>
+      <Modified>2024-05-28T00:18:16.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
@@ -265,29 +273,77 @@
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-06-09T16:37:53.917</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\b_img_black.scale-100.png">
+      <PackagePath>b_img_black.scale-100.png</PackagePath>
+      <Modified>2024-06-07T02:01:22.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\circ_icon_img_black.scale-100.png">
+      <PackagePath>circ_icon_img_black.scale-100.png</PackagePath>
+      <Modified>2024-06-09T17:00:02.448</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-06-09T16:37:52.943</Modified>
+      <Modified>2024-06-09T18:37:29.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-06-09T16:37:52.967</Modified>
+      <Modified>2024-06-09T18:37:29.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-06-09T16:37:52.991</Modified>
+      <Modified>2024-06-09T18:37:29.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-06-09T16:37:53.020</Modified>
+      <Modified>2024-06-09T18:37:29.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-06-09T16:37:53.209</Modified>
+      <Modified>2024-06-09T18:37:29.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\filterimg.scale-100.png">
+      <PackagePath>filterimg.scale-100.png</PackagePath>
+      <Modified>2024-06-09T17:02:36.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\homeimg.scale-100.png">
+      <PackagePath>homeimg.scale-100.png</PackagePath>
+      <Modified>2024-05-27T21:49:21.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\n_img_black.scale-100.png">
+      <PackagePath>n_img_black.scale-100.png</PackagePath>
+      <Modified>2024-06-07T02:00:19.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plusimg.scale-100.png">
+      <PackagePath>plusimg.scale-100.png</PackagePath>
+      <Modified>2024-05-28T00:24:00.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\searchimg.scale-100.png">
+      <PackagePath>searchimg.scale-100.png</PackagePath>
+      <Modified>2024-05-26T16:27:54.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\settingsimg.scale-100.png">
+      <PackagePath>settingsimg.scale-100.png</PackagePath>
+      <Modified>2024-05-28T00:22:40.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\solve_img_black.scale-100.png">
+      <PackagePath>solve_img_black.scale-100.png</PackagePath>
+      <Modified>2024-06-07T02:04:08.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sortimg.scale-100.png">
+      <PackagePath>sortimg.scale-100.png</PackagePath>
+      <Modified>2024-06-09T17:03:14.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\starfilledimg.scale-100.png">
+      <PackagePath>starfilledimg.scale-100.png</PackagePath>
+      <Modified>2024-05-30T01:32:38.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\starunfilledimg.scale-100.png">
+      <PackagePath>starunfilledimg.scale-100.png</PackagePath>
+      <Modified>2024-05-30T01:31:44.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CircuitSolver.deps.json">
       <PackagePath>CircuitSolver.deps.json</PackagePath>
-      <Modified>2024-06-09T16:38:15.064</Modified>
+      <Modified>2024-06-09T18:40:31.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -296,6 +352,10 @@
     <AppxPackagedFile Include="C:\Users\AM_admin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\AM_admin\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2023-10-24T20:16:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\AM_admin\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>

@@ -1,0 +1,1 @@
+C:\Users\AM_admin\Desktop\PersonalProject\CircuitSolver\CircuitSolver.csproj;x64

@@ -13,6 +13,8 @@ namespace CircuitSolver
             Routing.RegisterRoute(nameof(CircPage), typeof(CircPage));
             Routing.RegisterRoute(nameof(NewCircPage), typeof(NewCircPage));
             Routing.RegisterRoute(nameof(SettingsPage), typeof(SettingsPage));
+            Routing.RegisterRoute(nameof(NodeDetailsPage), typeof(NodeDetailsPage));
+            Routing.RegisterRoute(nameof(BranchDetailsPage), typeof(BranchDetailsPage));
         }
     }
 }

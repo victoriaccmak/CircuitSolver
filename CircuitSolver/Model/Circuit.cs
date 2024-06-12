@@ -14,8 +14,8 @@ namespace CircuitSolver.Model
     {
         public static readonly string[] TYPES = { "DC", "AC", "First Order", "Favorites" };
 
-        public List<Node> nodes;
-        public List<Branch> branches;
+        public List<Node> Nodes { get; set; }
+        public List<Branch> Branches { get; set; }
 
         public string Name { get; set; }
 
@@ -60,8 +60,8 @@ namespace CircuitSolver.Model
             Name = name;
             DateTime = dateAndTime; 
             Type = type;
-            nodes = new List<Node>();
-            branches = new List<Branch>();
+            Nodes = new List<Node>();
+            Branches = new List<Branch>();
             DateAsString = DateTime.ToString("f");
             isFave = false;
             FaveImg = "starunfilledimg.png";
@@ -70,173 +70,173 @@ namespace CircuitSolver.Model
 
         public void AddNode(string name)
         {
-            Node temp = new Node(name, nodes.Count, nodes);
+            Node temp = new Node(name, Nodes.Count, Nodes);
 
-            for (int i = 0; i < nodes.Count; i++)
+            for (int i = 0; i < Nodes.Count; i++)
             {
-                nodes[i].AddNewNode();
+                Nodes[i].AddNewNode();
             }
 
-            nodes.Add(temp);
+            Nodes.Add(temp);
             DisplayBranches();
         }
 
         public void DisplayBranches()
         {
-            for (int i = 0; i < branches.Count; i++)
+            for (int i = 0; i < Branches.Count; i++)
             {
-                Console.WriteLine(branches[i].GetDesc());
+                Console.WriteLine(Branches[i].GetDesc());
             }
         }
         public void DisplayNodes()
         {
-            for (int i = 0; i < nodes.Count; i++)
+            for (int i = 0; i < Nodes.Count; i++)
             {
-                nodes[i].Display();
+                Nodes[i].Display();
             }
         }
 
         public void CalcNodalVoltages(Node ground)
         {
-            float[][] matrix = new float[nodes.Count][];
+            float[][] matrix = new float[Nodes.Count][];
 
             for (int i = 0; i < matrix.Length; i++)
             {
-                matrix[i] = new float[nodes.Count + 1];
+                matrix[i] = new float[Nodes.Count + 1];
             }
 
-            for (int i = 0; i < branches.Count; i++)
+            for (int i = 0; i < Branches.Count; i++)
             {
-                if (branches[i] is Resistor)
+                if (Branches[i] is Resistor)
                 {
-                    if (!branches[i].GetP().GetHasVSource())
+                    if (!Branches[i].GetP().GetHasVSource())
                     {
-                        matrix[branches[i].GetP().GetId()][branches[i].GetP().GetId()] += 1f / branches[i].GetR();
-                        matrix[branches[i].GetP().GetId()][branches[i].GetN().GetId()] -= 1f / branches[i].GetR();
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetP().GetId()] += 1f / Branches[i].GetR();
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetN().GetId()] -= 1f / Branches[i].GetR();
                     }
 
-                    if (!branches[i].GetN().GetHasVSource())
+                    if (!Branches[i].GetN().GetHasVSource())
                     {
-                        matrix[branches[i].GetN().GetId()][branches[i].GetN().GetId()] += 1f / branches[i].GetR();
-                        matrix[branches[i].GetN().GetId()][branches[i].GetP().GetId()] -= 1f / branches[i].GetR();
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetN().GetId()] += 1f / Branches[i].GetR();
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetP().GetId()] -= 1f / Branches[i].GetR();
                     }
                 }
-                else if (branches[i] is ISource)
+                else if (Branches[i] is ISource)
                 {
-                    if (!branches[i].GetP().GetHasVSource())
+                    if (!Branches[i].GetP().GetHasVSource())
                     {
-                        matrix[branches[i].GetP().GetId()][nodes.Count] += branches[i].GetI();
+                        matrix[Branches[i].GetP().GetId()][Nodes.Count] += Branches[i].GetI();
                     }
 
-                    if (!branches[i].GetN().GetHasVSource())
+                    if (!Branches[i].GetN().GetHasVSource())
                     {
-                        matrix[branches[i].GetN().GetId()][nodes.Count] -= branches[i].GetI();
+                        matrix[Branches[i].GetN().GetId()][Nodes.Count] -= Branches[i].GetI();
                     }
                 }
-                else if (branches[i] is VSource)
+                else if (Branches[i] is VSource)
                 {
-                    if (branches[i].GetP().GetVSourceNum() == branches[i].GetId())
+                    if (Branches[i].GetP().GetVSourceNum() == Branches[i].GetId())
                     {
-                        matrix[branches[i].GetP().GetId()][branches[i].GetP().GetId()] = 1;
-                        matrix[branches[i].GetP().GetId()][branches[i].GetN().GetId()] = -1;
-                        matrix[branches[i].GetP().GetId()][nodes.Count] = branches[i].GetV();
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetP().GetId()] = 1;
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetN().GetId()] = -1;
+                        matrix[Branches[i].GetP().GetId()][Nodes.Count] = Branches[i].GetV();
                     }
-                    else if (branches[i].GetN().GetVSourceNum() == branches[i].GetId())
+                    else if (Branches[i].GetN().GetVSourceNum() == Branches[i].GetId())
                     {
-                        matrix[branches[i].GetN().GetId()][branches[i].GetP().GetId()] = 1;
-                        matrix[branches[i].GetN().GetId()][branches[i].GetN().GetId()] = -1;
-                        matrix[branches[i].GetN().GetId()][nodes.Count] = branches[i].GetV();
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetP().GetId()] = 1;
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetN().GetId()] = -1;
+                        matrix[Branches[i].GetN().GetId()][Nodes.Count] = Branches[i].GetV();
                     }
                 }
-                else if (branches[i] is VCVS)
+                else if (Branches[i] is VCVS)
                 {
-                    if (branches[i].GetP().GetVSourceNum() == branches[i].GetId())
+                    if (Branches[i].GetP().GetVSourceNum() == Branches[i].GetId())
                     {
-                        matrix[branches[i].GetP().GetId()][branches[i].GetP().GetId()] = 1;
-                        matrix[branches[i].GetP().GetId()][branches[i].GetN().GetId()] = -1;
-                        matrix[branches[i].GetP().GetId()][branches[i].GetControlBranch().GetP().GetId()] -= branches[i].GetMult();
-                        matrix[branches[i].GetP().GetId()][branches[i].GetControlBranch().GetN().GetId()] += branches[i].GetMult();
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetP().GetId()] = 1;
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetN().GetId()] = -1;
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetControlBranch().GetP().GetId()] -= Branches[i].GetMult();
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetControlBranch().GetN().GetId()] += Branches[i].GetMult();
                     }
-                    else if (branches[i].GetN().GetVSourceNum() == branches[i].GetId())
+                    else if (Branches[i].GetN().GetVSourceNum() == Branches[i].GetId())
                     {
-                        matrix[branches[i].GetN().GetId()][branches[i].GetP().GetId()] = 1;
-                        matrix[branches[i].GetN().GetId()][branches[i].GetN().GetId()] = -1;
-                        matrix[branches[i].GetN().GetId()][branches[i].GetControlBranch().GetP().GetId()] -= branches[i].GetMult();
-                        matrix[branches[i].GetN().GetId()][branches[i].GetControlBranch().GetN().GetId()] += branches[i].GetMult();
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetP().GetId()] = 1;
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetN().GetId()] = -1;
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetControlBranch().GetP().GetId()] -= Branches[i].GetMult();
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetControlBranch().GetN().GetId()] += Branches[i].GetMult();
                     }
                 }
-                else if (branches[i] is CCVS)
+                else if (Branches[i] is CCVS)
                 {
-                    if (branches[i].GetP().GetVSourceNum() == branches[i].GetId())
+                    if (Branches[i].GetP().GetVSourceNum() == Branches[i].GetId())
                     {
-                        matrix[branches[i].GetP().GetId()][branches[i].GetP().GetId()] = 1;
-                        matrix[branches[i].GetP().GetId()][branches[i].GetN().GetId()] = -1;
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetP().GetId()] = 1;
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetN().GetId()] = -1;
 
-                        if (branches[i].GetControlBranch() is ISource)
+                        if (Branches[i].GetControlBranch() is ISource)
                         {
-                            matrix[branches[i].GetP().GetId()][nodes.Count] = branches[i].GetMult() * branches[i].GetControlBranch().GetI();
+                            matrix[Branches[i].GetP().GetId()][Nodes.Count] = Branches[i].GetMult() * Branches[i].GetControlBranch().GetI();
                         }
-                        else if (branches[i].GetControlBranch() is Resistor)
+                        else if (Branches[i].GetControlBranch() is Resistor)
                         {
-                            matrix[branches[i].GetP().GetId()][branches[i].GetControlBranch().GetP().GetId()] -= branches[i].GetMult() / branches[i].GetControlBranch().GetR();
-                            matrix[branches[i].GetP().GetId()][branches[i].GetControlBranch().GetN().GetId()] += branches[i].GetMult() / branches[i].GetControlBranch().GetR();
+                            matrix[Branches[i].GetP().GetId()][Branches[i].GetControlBranch().GetP().GetId()] -= Branches[i].GetMult() / Branches[i].GetControlBranch().GetR();
+                            matrix[Branches[i].GetP().GetId()][Branches[i].GetControlBranch().GetN().GetId()] += Branches[i].GetMult() / Branches[i].GetControlBranch().GetR();
                         }
                     }
-                    else if (branches[i].GetN().GetVSourceNum() == branches[i].GetId())
+                    else if (Branches[i].GetN().GetVSourceNum() == Branches[i].GetId())
                     {
-                        matrix[branches[i].GetN().GetId()][branches[i].GetP().GetId()] = 1;
-                        matrix[branches[i].GetN().GetId()][branches[i].GetN().GetId()] = -1;
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetP().GetId()] = 1;
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetN().GetId()] = -1;
 
-                        if (branches[i].GetControlBranch() is ISource)
+                        if (Branches[i].GetControlBranch() is ISource)
                         {
-                            matrix[branches[i].GetN().GetId()][nodes.Count] = branches[i].GetMult() * branches[i].GetControlBranch().GetI();
+                            matrix[Branches[i].GetN().GetId()][Nodes.Count] = Branches[i].GetMult() * Branches[i].GetControlBranch().GetI();
                         }
-                        else if (branches[i].GetControlBranch() is Resistor)
+                        else if (Branches[i].GetControlBranch() is Resistor)
                         {
-                            matrix[branches[i].GetN().GetId()][branches[i].GetControlBranch().GetP().GetId()] -= branches[i].GetMult() / branches[i].GetControlBranch().GetR();
-                            matrix[branches[i].GetN().GetId()][branches[i].GetControlBranch().GetN().GetId()] += branches[i].GetMult() / branches[i].GetControlBranch().GetR();
+                            matrix[Branches[i].GetN().GetId()][Branches[i].GetControlBranch().GetP().GetId()] -= Branches[i].GetMult() / Branches[i].GetControlBranch().GetR();
+                            matrix[Branches[i].GetN().GetId()][Branches[i].GetControlBranch().GetN().GetId()] += Branches[i].GetMult() / Branches[i].GetControlBranch().GetR();
                         }
                     }
                 }
-                else if (branches[i] is VCCS)
+                else if (Branches[i] is VCCS)
                 {
-                    if (!branches[i].GetP().GetHasVSource())
+                    if (!Branches[i].GetP().GetHasVSource())
                     {
-                        matrix[branches[i].GetP().GetId()][branches[i].GetControlBranch().GetP().GetId()] -= branches[i].GetMult();
-                        matrix[branches[i].GetP().GetId()][branches[i].GetControlBranch().GetN().GetId()] += branches[i].GetMult();
-                    }
-
-                    if (!branches[i].GetN().GetHasVSource())
-                    {
-                        matrix[branches[i].GetN().GetId()][branches[i].GetControlBranch().GetP().GetId()] += branches[i].GetMult();
-                        matrix[branches[i].GetN().GetId()][branches[i].GetControlBranch().GetN().GetId()] -= branches[i].GetMult();
-                    }
-                }
-                else if (branches[i] is CCCS)
-                {
-                    if (!branches[i].GetP().GetHasVSource())
-                    {
-                        if (branches[i].GetControlBranch() is ISource)
-                        {
-                            matrix[branches[i].GetP().GetId()][nodes.Count] = branches[i].GetMult() * branches[i].GetControlBranch().GetI();
-                        }
-                        else if (branches[i].GetControlBranch() is Resistor)
-                        {
-                            matrix[branches[i].GetP().GetId()][branches[i].GetControlBranch().GetP().GetId()] -= branches[i].GetMult() / branches[i].GetControlBranch().GetR();
-                            matrix[branches[i].GetP().GetId()][branches[i].GetControlBranch().GetN().GetId()] += branches[i].GetMult() / branches[i].GetControlBranch().GetR();
-                        }
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetControlBranch().GetP().GetId()] -= Branches[i].GetMult();
+                        matrix[Branches[i].GetP().GetId()][Branches[i].GetControlBranch().GetN().GetId()] += Branches[i].GetMult();
                     }
 
-                    if (!branches[i].GetN().GetHasVSource())
+                    if (!Branches[i].GetN().GetHasVSource())
                     {
-                        if (branches[i].GetControlBranch() is ISource)
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetControlBranch().GetP().GetId()] += Branches[i].GetMult();
+                        matrix[Branches[i].GetN().GetId()][Branches[i].GetControlBranch().GetN().GetId()] -= Branches[i].GetMult();
+                    }
+                }
+                else if (Branches[i] is CCCS)
+                {
+                    if (!Branches[i].GetP().GetHasVSource())
+                    {
+                        if (Branches[i].GetControlBranch() is ISource)
                         {
-                            matrix[branches[i].GetN().GetId()][nodes.Count] = -branches[i].GetMult() * branches[i].GetControlBranch().GetI();
+                            matrix[Branches[i].GetP().GetId()][Nodes.Count] = Branches[i].GetMult() * Branches[i].GetControlBranch().GetI();
                         }
-                        else if (branches[i].GetControlBranch() is Resistor)
+                        else if (Branches[i].GetControlBranch() is Resistor)
                         {
-                            matrix[branches[i].GetN().GetId()][branches[i].GetControlBranch().GetP().GetId()] += branches[i].GetMult() / branches[i].GetControlBranch().GetR();
-                            matrix[branches[i].GetN().GetId()][branches[i].GetControlBranch().GetN().GetId()] -= branches[i].GetMult() / branches[i].GetControlBranch().GetR();
+                            matrix[Branches[i].GetP().GetId()][Branches[i].GetControlBranch().GetP().GetId()] -= Branches[i].GetMult() / Branches[i].GetControlBranch().GetR();
+                            matrix[Branches[i].GetP().GetId()][Branches[i].GetControlBranch().GetN().GetId()] += Branches[i].GetMult() / Branches[i].GetControlBranch().GetR();
+                        }
+                    }
+
+                    if (!Branches[i].GetN().GetHasVSource())
+                    {
+                        if (Branches[i].GetControlBranch() is ISource)
+                        {
+                            matrix[Branches[i].GetN().GetId()][Nodes.Count] = -Branches[i].GetMult() * Branches[i].GetControlBranch().GetI();
+                        }
+                        else if (Branches[i].GetControlBranch() is Resistor)
+                        {
+                            matrix[Branches[i].GetN().GetId()][Branches[i].GetControlBranch().GetP().GetId()] += Branches[i].GetMult() / Branches[i].GetControlBranch().GetR();
+                            matrix[Branches[i].GetN().GetId()][Branches[i].GetControlBranch().GetN().GetId()] -= Branches[i].GetMult() / Branches[i].GetControlBranch().GetR();
                         }
                     }
                 }
@@ -260,7 +260,7 @@ namespace CircuitSolver.Model
                 {
                     if (matrix[i][j] != 0)
                     {
-                        nodes[j].SetV(matrix[i][matrix[i].Length - 1]);
+                        Nodes[j].SetV(matrix[i][matrix[i].Length - 1]);
                         break;
                     }
                 }
@@ -341,9 +341,9 @@ namespace CircuitSolver.Model
 
         private void DisplayMatrix(float[][] matrix)
         {
-            for (int i = 0; i < nodes.Count; i++)
+            for (int i = 0; i < Nodes.Count; i++)
             {
-                Console.Write(nodes[i].GetName().PadRight(10));
+                Console.Write(Nodes[i].GetName().PadRight(10));
             }
 
             Console.WriteLine();
@@ -361,44 +361,44 @@ namespace CircuitSolver.Model
 
         public void CalcCurrents()
         {
-            for (int i = 0; i < branches.Count; i++)
+            for (int i = 0; i < Branches.Count; i++)
             {
-                branches[i].CalcI();
+                Branches[i].CalcI();
             }
         }
 
         public void RemoveBranch(int id)
         {
-            branches.RemoveAt(id);
+            Branches.RemoveAt(id);
 
-            for (int i = id; i < branches.Count; i++)
+            for (int i = id; i < Branches.Count; i++)
             {
-                branches[i].SetId(i);
+                Branches[i].SetId(i);
             }
         }
 
         public void RemoveNode(int id)
         {
-            for (int i = 0; i < branches.Count; i++)
+            for (int i = 0; i < Branches.Count; i++)
             {
-                if (branches[i].GetP().GetId() == id || branches[i].GetN().GetId() == id)
+                if (Branches[i].GetP().GetId() == id || Branches[i].GetN().GetId() == id)
                 {
                     RemoveBranch(i);
                     i--;
                 }
             }
 
-            nodes.RemoveAt(id);
+            Nodes.RemoveAt(id);
 
             //Shift ID
-            for (int i = id; i < nodes.Count; i++)
+            for (int i = id; i < Nodes.Count; i++)
             {
-                nodes[i].SetId(i);
+                Nodes[i].SetId(i);
             }
 
-            for (int i = 0; i < nodes.Count; i++)
+            for (int i = 0; i < Nodes.Count; i++)
             {
-                nodes[i].UpdateDeletedNode(id);
+                Nodes[i].UpdateDeletedNode(id);
             }
         }
     }

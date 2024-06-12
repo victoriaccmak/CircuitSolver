@@ -78,6 +78,7 @@ namespace CircuitSolver.ViewModel
             firstOrderSelected = false;
 
             type = 3;
+            text = "";
             verification = "You have not selected a type yet.";
         }
 
@@ -171,7 +172,7 @@ namespace CircuitSolver.ViewModel
 
                 Circuit newCirc = new Circuit(Text, DateTime.Now, type);
 
-                await Shell.Current.GoToAsync($"{nameof(CircPage)}", new Dictionary<string, object> { { "circuit", newCirc } });
+                await Shell.Current.GoToAsync($"{nameof(CircPage)}", new Dictionary<string, object> { { "Circuit", newCirc } });
             }
             catch (Exception ex)
             {

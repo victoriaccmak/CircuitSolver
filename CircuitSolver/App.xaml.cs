@@ -1,4 +1,5 @@
 ﻿using CircuitSolver.View;
+using Microsoft.Maui;
 
 namespace CircuitSolver
 {

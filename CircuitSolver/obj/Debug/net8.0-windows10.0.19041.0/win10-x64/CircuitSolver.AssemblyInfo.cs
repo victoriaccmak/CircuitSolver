@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CircuitSolver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+111f7930f268f2483d4acd219adaf9b37f55638b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cde08a6a8179a8b30e6bea8089262d1536dba019")]
 [assembly: System.Reflection.AssemblyProductAttribute("CircuitSolver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CircuitSolver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

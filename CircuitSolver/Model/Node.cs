@@ -8,14 +8,14 @@ namespace CircuitSolver.Model
 {
     public class Node
     {
-        private string name;
-        private int id;
-        public List<List<Branch>> branches;
-        private float v;
-        private string desc = "";
-        private List<List<string>> inDepthDesc;
-        private int vSourceNum;
-        private bool hasVSource;
+        public string name { get; set; }
+        public int id { get; set; }
+        public List<List<Branch>> branches { get; set; }
+        public float v { get; set; }
+        public string desc = "";
+        private List<List<string>> inDepthDesc { get; set; }
+        private int vSourceNum { get; set; }
+        private bool hasVSource { get; set; }
 
         public Node()
         {

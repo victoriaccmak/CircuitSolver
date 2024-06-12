@@ -18,6 +18,7 @@ using CommunityToolkit.Mvvm;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using CircuitSolver.Model;
+using CircuitSolver.View;
 
 namespace CircuitSolver.ViewModel
 {
@@ -395,6 +396,23 @@ namespace CircuitSolver.ViewModel
         {
             c.IsFave = true;
             await Shell.Current.DisplayAlert("1", "2", "3");
+        }
+
+        [RelayCommand]
+        async Task GoToCircuit(Circuit circuit)
+        {
+            if (circuit == null)
+            {
+                return;
+            }
+
+            await Shell.Current.GoToAsync($"{nameof(CircPage)}", 
+                new Dictionary<string, object>
+                {
+                    {"Circuit", circuit }
+                });
+
+            //await Shell.Current.GoToAsync($"{nameof(CircPage)}");
         }
 
         void OnPropertyChanged(string propertyName)

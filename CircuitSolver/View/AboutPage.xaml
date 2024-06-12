@@ -16,8 +16,8 @@ Modified Date:
 Description: A cross platform app that will solve linear circuits
 -->
 
-    <VerticalStackLayout>
-        <!--<Label 
+    <VerticalStackLayout Margin="10">
+        <Label 
             Text="About"
             VerticalOptions="Center" 
             HorizontalOptions="Start"
@@ -41,6 +41,6 @@ Description: A cross platform app that will solve linear circuits
             Text="To create a new project, you must name it and select a project type. Once created, you can view and add nodes and elements to it with the navigation bar at the top. The Circuit icon will show a diagram of your circuit (note that it may look different from a circuit you visualized but it is correct). Click the Solve icon when you are ready to get results. It will prompt you for a ground node (required)."
             VerticalOptions="Center" 
             HorizontalOptions="Start" 
-            FontSize="15"/>-->
+            FontSize="15"/>
     </VerticalStackLayout>
 </ContentPage>

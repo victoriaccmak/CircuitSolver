@@ -13,6 +13,7 @@ namespace CircuitSolver.Model
             this.i = i;
             desc = id + " - I Source - " + i + "A, between " + nNode.GetName() + " and " + pNode.GetName();
             briefDesc = i + "A independent current source";
+            type = "Current Source";
         }
     }
 }

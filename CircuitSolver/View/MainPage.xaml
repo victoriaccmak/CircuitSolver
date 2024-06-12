@@ -317,7 +317,8 @@ Description: A cross platform app that will solve linear circuits
                 <!--Circuits collection-->
                 <CollectionView 
                     Grid.Row="7" 
-                    ItemsSource="{Binding DispCircuits}">
+                    ItemsSource="{Binding DispCircuits}"
+                    SelectionMode="None">
                     <CollectionView.ItemTemplate>
                         <DataTemplate 
                             x:DataType="model:Circuit">
@@ -338,6 +339,11 @@ Description: A cross platform app that will solve linear circuits
                                         BackgroundColor="White" 
                                         CornerRadius="20" 
                                         HasShadow="true">
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer 
+                                                CommandParameter="{Binding .}"
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=GoToCircuitCommand}"/>
+                                        </Frame.GestureRecognizers>
                                         <Frame.Shadow>
                                             <Shadow 
                                                 Brush="Black"

@@ -17,6 +17,7 @@ namespace CircuitSolver.Model
             this.branch = branch;
             desc = id + " - CCVS - " + multiplier + " * v" + branch.GetId() + ", between " + nNode.GetName() + " and " + pNode.GetName();
             briefDesc = multiplier + "I" + branch.GetId() + " CCVS";
+            type = nameof(CCVS);
         }
 
         override public Branch GetControlBranch()

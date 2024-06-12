@@ -42,11 +42,41 @@ build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.AboutPa
 build_metadata.AdditionalFiles.TargetPath = View\AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AboutPage.xaml
 
+[C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/BranchDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.BranchDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\BranchDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\BranchDetailsPage.xaml
+
+[C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/CircBranchesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.CircBranchesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CircBranchesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CircBranchesPage.xaml
+
+[C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/CircDiagramPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.CircDiagramPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CircDiagramPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CircDiagramPage.xaml
+
+[C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/CircNodesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.CircNodesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CircNodesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CircNodesPage.xaml
+
 [C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/CircPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.CircPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\CircPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\CircPage.xaml
+
+[C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/CircSolvePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.CircSolvePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CircSolvePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CircSolvePage.xaml
 
 [C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -59,6 +89,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.NewCircPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\NewCircPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\NewCircPage.xaml
+
+[C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/NodeDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.NodeDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\NodeDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\NodeDetailsPage.xaml
 
 [C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

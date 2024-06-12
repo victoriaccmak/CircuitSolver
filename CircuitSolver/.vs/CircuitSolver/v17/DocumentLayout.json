@@ -3,12 +3,176 @@
   "WorkspaceRootPath": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circsolvepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circsolvepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circsolvepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circsolvepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circdiagrampage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circdiagrampage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circbranchespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circbranchespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\circbranchesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\circbranchesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circnodespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circnodespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circnodespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circnodespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circbranchespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circbranchespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\aboutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\aboutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\circviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\circviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\branchdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\branchdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\nodedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\nodedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\branchdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\branchdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\nodedetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\nodedetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\branchdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\branchdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\circnodesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\circnodesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\circuit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\circuit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\newcircviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\newcircviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\circdiagramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\circdiagramviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\circsolveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\circsolveviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\nodedetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\nodedetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\ccvs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\ccvs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\vsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\vsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\vccs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\vccs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\vcvs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\vcvs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\resistor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\resistor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\isource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\isource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\model\\cccs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:model\\cccs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\viewmodel\\aboutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:viewmodel\\aboutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|c:\\users\\am_admin\\desktop\\personalproject\\circuitsolver\\view\\circdiagrampage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{34DBCCE6-2AB9-4113-82FD-47CDC54FBC60}|CircuitSolver.csproj|solutionrelative:view\\circdiagrampage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +182,558 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\Branch.cs",
+              "RelativeDocumentMoniker": "Model\\Branch.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\Branch.cs",
+              "RelativeToolTip": "Model\\Branch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:32:09.025Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CircBranchesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircBranchesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CircBranchesViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircBranchesViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CircBranchesViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:35:01.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CircPage.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircPage.xaml",
+              "RelativeDocumentMoniker": "View\\CircPage.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircPage.xaml",
+              "RelativeToolTip": "View\\CircPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T19:11:39.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CircNodesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircNodesPage.xaml",
+              "RelativeDocumentMoniker": "View\\CircNodesPage.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircNodesPage.xaml",
+              "RelativeToolTip": "View\\CircNodesPage.xaml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwEUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T19:28:29.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CircBranchesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircBranchesPage.xaml",
+              "RelativeDocumentMoniker": "View\\CircBranchesPage.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircBranchesPage.xaml",
+              "RelativeToolTip": "View\\CircBranchesPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T19:29:26.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CircDiagramPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircDiagramPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\CircDiagramPage.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircDiagramPage.xaml.cs",
+              "RelativeToolTip": "View\\CircDiagramPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:38:24.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CircSolvePage.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircSolvePage.xaml",
+              "RelativeDocumentMoniker": "View\\CircSolvePage.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircSolvePage.xaml",
+              "RelativeToolTip": "View\\CircSolvePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T19:30:00.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CircPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\CircPage.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircPage.xaml.cs",
+              "RelativeToolTip": "View\\CircPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:25:35.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CircSolvePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircSolvePage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\CircSolvePage.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircSolvePage.xaml.cs",
+              "RelativeToolTip": "View\\CircSolvePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:38:58.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CircNodesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircNodesPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\CircNodesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircNodesPage.xaml.cs",
+              "RelativeToolTip": "View\\CircNodesPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:38:41.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CircBranchesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircBranchesPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\CircBranchesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircBranchesPage.xaml.cs",
+              "RelativeToolTip": "View\\CircBranchesPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:33:56.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AboutPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\AboutPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AboutPage.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\AboutPage.xaml.cs",
+              "RelativeToolTip": "View\\AboutPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T03:32:20.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "View\\AboutPage.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\AboutPage.xaml",
+              "RelativeToolTip": "View\\AboutPage.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T19:20:39.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
               "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBwAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T16:38:07.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:14:40.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:14:38.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T19:58:20.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T19:11:53.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CircViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CircViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CircViewModel.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAIwDMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:11:30.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BranchDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\BranchDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\BranchDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\BranchDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\BranchDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:41:08.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NodeDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\NodeDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\NodeDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\NodeDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModel\\NodeDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:40:46.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BranchDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\BranchDetailsPage.xaml",
+              "RelativeDocumentMoniker": "View\\BranchDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\BranchDetailsPage.xaml",
+              "RelativeToolTip": "View\\BranchDetailsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-11T17:39:02.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NodeDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\NodeDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\NodeDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\NodeDetailsPage.xaml.cs",
+              "RelativeToolTip": "View\\NodeDetailsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:47:31.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BranchDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\BranchDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\BranchDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\BranchDetailsPage.xaml.cs",
+              "RelativeToolTip": "View\\BranchDetailsPage.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T17:47:00.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CircNodesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircNodesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CircNodesViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircNodesViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CircNodesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:34:52.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\Node.cs",
+              "RelativeDocumentMoniker": "Model\\Node.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\Node.cs",
+              "RelativeToolTip": "Model\\Node.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:32:13.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Circuit.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\Circuit.cs",
+              "RelativeDocumentMoniker": "Model\\Circuit.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\Circuit.cs",
+              "RelativeToolTip": "Model\\Circuit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:34:57.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\MainPage.xaml",
+              "RelativeDocumentMoniker": "View\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\MainPage.xaml",
+              "RelativeToolTip": "View\\MainPage.xaml",
+              "ViewState": "AQIAACgBAAAAAAAAAAAAAHcBAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T19:36:14.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NewCircViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\NewCircViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\NewCircViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\NewCircViewModel.cs",
+              "RelativeToolTip": "ViewModel\\NewCircViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK4AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:12:07.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CircDiagramViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircDiagramViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CircDiagramViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircDiagramViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CircDiagramViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:35:14.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CircSolveViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircSolveViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CircSolveViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\CircSolveViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CircSolveViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:35:27.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NodeDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\NodeDetailsPage.xaml",
+              "RelativeDocumentMoniker": "View\\NodeDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\NodeDetailsPage.xaml",
+              "RelativeToolTip": "View\\NodeDetailsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-11T17:38:44.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CCVS.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\CCVS.cs",
+              "RelativeDocumentMoniker": "Model\\CCVS.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\CCVS.cs",
+              "RelativeToolTip": "Model\\CCVS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:29:36.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VSource.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\VSource.cs",
+              "RelativeDocumentMoniker": "Model\\VSource.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\VSource.cs",
+              "RelativeToolTip": "Model\\VSource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:30:29.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "VCCS.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\VCCS.cs",
+              "RelativeDocumentMoniker": "Model\\VCCS.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\VCCS.cs",
+              "RelativeToolTip": "Model\\VCCS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:30:13.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "VCVS.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\VCVS.cs",
+              "RelativeDocumentMoniker": "Model\\VCVS.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\VCVS.cs",
+              "RelativeToolTip": "Model\\VCVS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:30:20.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Resistor.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\Resistor.cs",
+              "RelativeDocumentMoniker": "Model\\Resistor.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\Resistor.cs",
+              "RelativeToolTip": "Model\\Resistor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:30:04.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ISource.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\ISource.cs",
+              "RelativeDocumentMoniker": "Model\\ISource.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\ISource.cs",
+              "RelativeToolTip": "Model\\ISource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:29:47.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CCCS.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\CCCS.cs",
+              "RelativeDocumentMoniker": "Model\\CCCS.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\Model\\CCCS.cs",
+              "RelativeToolTip": "Model\\CCCS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:16:00.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAJEBAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:36:10.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AboutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\AboutViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AboutViewModel.cs",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\ViewModel\\AboutViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AboutViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:12:02.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CircDiagramPage.xaml",
+              "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircDiagramPage.xaml",
+              "RelativeDocumentMoniker": "View\\CircDiagramPage.xaml",
+              "ToolTip": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\View\\CircDiagramPage.xaml",
+              "RelativeToolTip": "View\\CircDiagramPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T19:29:47.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\AM_admin\\Desktop\\PersonalProject\\CircuitSolver\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
@@ -43,8 +741,7 @@
               "RelativeToolTip": "MainPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:37:54.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T16:37:54.848Z"
             }
           ]
         }

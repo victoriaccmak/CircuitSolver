@@ -23,10 +23,14 @@ namespace CircuitSolver
             builder.Services.AddSingleton<AboutViewModel>();
             builder.Services.AddTransient<CircPage>();
             builder.Services.AddTransient<CircViewModel>();
-            builder.Services.AddTransient<NewCircPage>();
-            builder.Services.AddTransient<NewCircViewModel>();
+            builder.Services.AddSingleton<NewCircPage>();
+            builder.Services.AddSingleton<NewCircViewModel>();
             builder.Services.AddSingleton<SettingsPage>();
             builder.Services.AddSingleton<SettingsViewModel>();
+            builder.Services.AddTransient<NodeDetailsPage>();
+            builder.Services.AddTransient<NodeDetailsViewModel>();
+            builder.Services.AddTransient<BranchDetailsPage>();
+            builder.Services.AddTransient<BranchDetailsViewModel>();
             //builder.Services.AddSingleton<IFileSaver>
 
 #if DEBUG

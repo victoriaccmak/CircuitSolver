@@ -13,6 +13,7 @@ namespace CircuitSolver.Model
             this.r = r;
             desc = id + " - Resistor - " + r + " Ohms, between " + nNode.GetName() + " and " + pNode.GetName();
             briefDesc = r + " ohm resistor";
+            type = nameof(Resistor);
         }
 
         override public void CalcI()

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CircuitSolver.View.CircPage"
-             Title="{Binding Circuit.Name}"
-             BackgroundColor="White"             
+             x:Class="CircuitSolver.View.CircPage"         
              xmlns:viewmodel="clr-namespace:CircuitSolver.ViewModel"
              xmlns:model="clr-namespace:CircuitSolver.Model"
-             x:DataType="viewmodel:CircViewModel">
+             x:DataType="viewmodel:CircViewModel"
+            xmlns:p="clr-namespace:CircuitSolver.View"
+            BarBackgroundColor="Orange"
+            UnselectedTabColor="Red"
+            SelectedTabColor="Green">
     <!--
 Author: Victoria Mak
 File Name: CircPage.xaml
@@ -15,11 +17,15 @@ Creation Date: May 20, 2024
 Modified Date: 
 Description: A cross platform app that will solve linear circuits
 -->
-    
-    <Grid 
+
+    <p:CircNodesPage Title="Nodes"/>
+    <p:CircBranchesPage Title="Branches"/>
+    <p:CircDiagramPage Title="Diagram"/>
+    <p:CircSolvePage Title="Solve"/>
+    <!--<Grid 
         RowDefinitions="100,Auto" 
         ColumnDefinitions="*,*,*,*">
-        <!--<ImageButton 
+        --><!--<ImageButton 
             Grid.Row="0" 
             Grid.Column="0"
             Aspect="AspectFit"
@@ -58,6 +64,6 @@ Description: A cross platform app that will solve linear circuits
                     </VisualState>
                 </VisualStateGroup>
             </VisualStateManager.VisualStateGroups>
-        </ImageButton>-->
-    </Grid>
-</ContentPage>
+        </ImageButton>--><!--
+    </Grid>-->
+</TabbedPage>

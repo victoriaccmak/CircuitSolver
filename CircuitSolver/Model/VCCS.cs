@@ -17,6 +17,7 @@ namespace CircuitSolver.Model
             this.branch = branch;
             desc = id + " - VCCS - " + multiplier + " * v" + branch.GetId() + ", between " + nNode.GetName() + " and " + pNode.GetName();
             briefDesc = multiplier + "V" + branch.GetId() + " VCCS";
+            type = nameof(VCCS);
         }
 
 

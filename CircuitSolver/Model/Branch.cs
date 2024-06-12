@@ -1,23 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CircuitSolver.Model
 {
-    public class Branch
+    public class Branch : INotifyPropertyChanged
     {
-        protected int id;
-        protected float v;
-        protected float i;
-        protected float r;
+        public int id {  get; set; }
 
-        protected Node nNode;
-        protected Node pNode;
+        public float v { get; set; }
+        public float i { get; set; }
+        public float r { get; set; }
 
-        protected string desc = "";
-        protected string briefDesc = "";
+        protected Node nNode { get; set; }
+        protected Node pNode { get; set; }
+
+        public string desc { get; set; }
+        public string briefDesc { get; set; }
+        public string type { get; protected set; }
+
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         public Branch(int id, Node nNode, Node pNode)
         {
@@ -92,6 +97,11 @@ namespace CircuitSolver.Model
         virtual public void CalcI()
         {
 
+        }
+
+        public void OnPropertyChanged(string name)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
     }
 }

@@ -13,6 +13,7 @@ namespace CircuitSolver.Model
             this.v = v;
             desc = id + " - V Source - " + v + "V, between " + nNode.GetName() + " and " + pNode.GetName();
             briefDesc = v + "V independent voltage source";
+            type = "Voltage Source";
         }
 
         override public void CalcI()

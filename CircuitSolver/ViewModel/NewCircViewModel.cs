@@ -171,6 +171,7 @@ namespace CircuitSolver.ViewModel
                 }
 
                 Circuit newCirc = new Circuit(Text, DateTime.Now, type);
+                newCirc.AddNode("A");
 
                 await Shell.Current.GoToAsync($"{nameof(CircPage)}", new Dictionary<string, object> { { "Circuit", newCirc } });
             }

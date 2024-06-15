@@ -31,6 +31,12 @@ namespace CircuitSolver
             builder.Services.AddTransient<NodeDetailsViewModel>();
             builder.Services.AddTransient<BranchDetailsPage>();
             builder.Services.AddTransient<BranchDetailsViewModel>();
+            builder.Services.AddTransient<AddBranch1Page>();
+            builder.Services.AddTransient<AddBranch2Page>();
+            builder.Services.AddTransient<AddControlledSource3Page>();
+            builder.Services.AddTransient<AddBranchViewModel>();
+
+
             //builder.Services.AddSingleton<IFileSaver>
 
 #if DEBUG

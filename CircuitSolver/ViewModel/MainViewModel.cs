@@ -81,12 +81,12 @@ namespace CircuitSolver.ViewModel
 
         public MainViewModel()
         {
-            DebugString = "ewer";
+            DebugString = "test";
             circuits = new ObservableCollection<Circuit>
             {
                 new Circuit("hi1", new DateTime(new DateOnly(2024, 2, 22), new TimeOnly(7, 30)), 1),
-                new Circuit("ai1", new DateTime(new DateOnly(2024, 3, 22), new TimeOnly(6, 30)), 0),
-                new Circuit("ei1", new DateTime(new DateOnly(2024, 3, 22), new TimeOnly(7, 30)), 2)
+                new Circuit("hello", new DateTime(new DateOnly(2024, 3, 22), new TimeOnly(6, 30)), 0),
+                new Circuit("testing", new DateTime(new DateOnly(2024, 3, 22), new TimeOnly(7, 30)), 2)
             };
 
             dispCircuits = circuits;

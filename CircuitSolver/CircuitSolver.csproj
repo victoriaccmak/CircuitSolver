@@ -68,6 +68,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="View\AddBranch2Page.xaml.cs">
+	    <DependentUpon>AddBranch2Page.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\AddControlledSource3Page.xaml.cs">
+	    <DependentUpon>AddControlledSource3Page.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\AddBranch1Page.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\AddBranch2Page.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\AddControlledSource3Page.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\BranchDetailsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -46,6 +46,24 @@ build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.AboutPa
 build_metadata.AdditionalFiles.TargetPath = View\AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AboutPage.xaml
 
+[C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/AddBranch1Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.AddBranch1Page.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddBranch1Page.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddBranch1Page.xaml
+
+[C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/AddBranch2Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.AddBranch2Page.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddBranch2Page.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddBranch2Page.xaml
+
+[C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/AddControlledSource3Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.AddControlledSource3Page.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddControlledSource3Page.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddControlledSource3Page.xaml
+
 [C:/Users/AM_admin/Desktop/PersonalProject/CircuitSolver/View/BranchDetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CircuitSolver.View.BranchDetailsPage.xaml

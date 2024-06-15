@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CircuitSolver.View.AddControlledSource3Page"
+             Title="AddControlledSource3Page"
+             xmlns:viewmodel="clr-namespace:CircuitSolver.ViewModel"
+             xmlns:model="clr-namespace:CircuitSolver.Model"
+             x:DataType="viewmodel:AddBranchViewModel">
+             
+    <Grid
+        RowDefinitions="Auto,100"
+        ColumnDefinitions="Auto,*,Auto">
+        <VerticalStackLayout
+            Grid.ColumnSpan="3">
+            <StackLayout 
+                RadioButtonGroup.GroupName="types"
+                RadioButtonGroup.SelectedValue="{Binding DirContSource}">
+                <Label
+                    Text="{Binding ContPNodePrompt}"
+                    TextColor="Black"/>
+                <RadioButton Content="{Binding ControlBranch.nNode.name}"
+                    Value="-1"
+                    TextColor="Black"/>
+                <RadioButton 
+                    Content="{Binding ControlBranch.pNode.name}"
+                    Value="1"
+                    TextColor="Black"/>    
+                <Label 
+                    Text="{Binding DirVerification}"
+                    TextColor="Black"/>
+            </StackLayout>
+        </VerticalStackLayout>
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            WidthRequest="120"
+            BackgroundColor="Red"
+            TextColor="White"
+            Padding="10"
+            HorizontalOptions="Start"
+            Text="Cancel"
+            Command="{Binding CancelCommand}"/>
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            WidthRequest="120"
+            BackgroundColor="Blue"
+            TextColor="White"
+            Padding="10"
+            HorizontalOptions="Start"
+            Text="Back"
+            Command="{Binding BackCommand}"/>
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            WidthRequest="120"
+            HorizontalOptions="End"
+            Padding="10"
+            BackgroundColor="Green"
+            TextColor="White"
+            Text="Next"
+            Command="{Binding NextCommand}"/>
+    </Grid>
+</ContentPage>

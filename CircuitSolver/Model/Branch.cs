@@ -15,8 +15,8 @@ namespace CircuitSolver.Model
         public float i { get; set; }
         public float r { get; set; }
 
-        protected Node nNode { get; set; }
-        protected Node pNode { get; set; }
+        public Node nNode { get; set; }
+        public Node pNode { get; set; }
 
         public string desc { get; set; }
         public string briefDesc { get; set; }

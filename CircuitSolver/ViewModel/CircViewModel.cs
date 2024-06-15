@@ -71,5 +71,19 @@ namespace CircuitSolver.ViewModel
                     {"Node", node }
                 });
         }
+
+        [RelayCommand]
+        public async Task AddNewBranch()
+        {
+            try
+            {
+
+                await Shell.Current.GoToAsync($"{nameof(AddBranch1Page)}");
+            }
+            catch (Exception ex)
+            {
+                await Shell.Current.DisplayAlert("Error", ex.Message, "OK");
+            }
+        }
     }
 }

@@ -8,64 +8,73 @@
              xmlns:model="clr-namespace:CircuitSolver.Model">
     
     <!--Circuits collection-->
-    <!--<CollectionView  
-        ItemsSource="{Binding Circuit.Branches}"
-        SelectionMode="None">
-        <CollectionView.ItemTemplate>
-            <DataTemplate 
-                x:DataType="model:Branch">
-                <SwipeView>
-                    <SwipeView.RightItems>
-                        <SwipeItems>
-                            <SwipeItem 
-                            Text="Delete"
-                            BackgroundColor="Red"
-                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CircViewModel}}, Path=DeleteBranchCommand}"
-                            CommandParameter="{Binding .}"/>
-                        </SwipeItems>
-                    </SwipeView.RightItems>
-                    <Grid 
-                        Padding="8">
-                        <Frame 
-                            HeightRequest="100" 
-                            BackgroundColor="White" 
-                            CornerRadius="20" 
-                            HasShadow="true">
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer 
-                                CommandParameter="{Binding .}"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CircViewModel}}, Path=ViewBranchDetailsCommand}"/>
-                            </Frame.GestureRecognizers>
-                            <Frame.Shadow>
-                                <Shadow 
-                                Brush="Black"
-                                Offset="8,8"
-                                Radius="50"
-                                Opacity="0.2"/>
-                            </Frame.Shadow>
-                            <Grid 
-                                ColumnDefinitions="0.8*,0.2*">
-                                <VerticalStackLayout 
-                                        Spacing="0">
+    <Grid>
+        <CollectionView  
+            ItemsSource="{Binding Circuit.Branches}"
+            SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate 
+                    x:DataType="model:Branch">
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem 
+                        Text="Delete"
+                        BackgroundColor="Red"
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CircViewModel}}, Path=DeleteBranchCommand}"
+                        CommandParameter="{Binding .}"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Grid 
+                    Padding="8">
+                            <Frame 
+                        HeightRequest="100" 
+                        BackgroundColor="White" 
+                        CornerRadius="20" 
+                        HasShadow="true">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                            CommandParameter="{Binding .}"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:CircViewModel}}, Path=ViewBranchDetailsCommand}"/>
+                                </Frame.GestureRecognizers>
+                                <Frame.Shadow>
+                                    <Shadow 
+                            Brush="Black"
+                            Offset="8,8"
+                            Radius="50"
+                            Opacity="0.2"/>
+                                </Frame.Shadow>
+                                <Grid 
+                            ColumnDefinitions="0.8*,0.2*">
+                                    <VerticalStackLayout 
+                                    Spacing="0">
+                                        <Label
+                                    FontSize="20"
+                                    Text="{Binding id}"
+                                    TextColor="Black"/>
+                                        <Label 
+                                    FontSize="12"
+                                    Text="{Binding briefDesc}"
+                                    TextColor="Black"/>
+                                    </VerticalStackLayout>
                                     <Label
-                                        FontSize="20"
-                                        Text="{Binding id}"
-                                        TextColor="Black"/>
-                                    <Label 
-                                        FontSize="12"
-                                        Text="{Binding briefDesc}"
-                                        TextColor="Black"/>
-                                </VerticalStackLayout>
-                                <Label
-                                    Text="{Binding type}"
-                                    Grid.Column="1"
-                                    HorizontalOptions="Center"
-                                    VerticalOptions="Center"/>
-                            </Grid>
-                        </Frame>
-                    </Grid>
-                </SwipeView>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView>-->
+                                Text="{Binding type}"
+                                Grid.Column="1"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <ImageButton 
+            Source="plusimg.png"
+            Command="{Binding AddNewBranchCommand}"
+            Scale="1"
+            WidthRequest="50"
+            HeightRequest="50"
+            Aspect="AspectFit"/>
+    </Grid>
 </ContentPage>

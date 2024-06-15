@@ -8,7 +8,7 @@
              xmlns:model="clr-namespace:CircuitSolver.Model">
 
     <!--Circuits collection-->
-    <!--<CollectionView  
+    <CollectionView  
         ItemsSource="{Binding Circuit.Nodes}"
         SelectionMode="None">
         <CollectionView.ItemTemplate>
@@ -67,5 +67,5 @@
                 </SwipeView>
             </DataTemplate>
         </CollectionView.ItemTemplate>
-    </CollectionView>-->
+    </CollectionView>
 </ContentPage>

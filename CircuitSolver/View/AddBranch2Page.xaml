@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CircuitSolver.View.AddBranch2Page"
+             Title="AddBranch2Page"
+             xmlns:viewmodel="clr-namespace:CircuitSolver.ViewModel"
+             x:DataType="viewmodel:AddBranchViewModel">
+    <Grid
+        RowDefinitions="Auto,100"
+        ColumnDefinitions="Auto,*,Auto">
+        <VerticalStackLayout
+            Grid.ColumnSpan="3">
+            <Picker 
+                x:Name="nNodesDropdown" 
+                Title="{Binding NNodePrompt}"
+                ItemsSource="{Binding Nodes}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding NNode}"/>
+            <Picker 
+                x:Name="pNodesDropdown" 
+                Title="{Binding PNodePrompt}"
+                ItemsSource="{Binding Nodes}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding PNode}"/>
+            <Label Text="{Binding ValPrompt}"/>
+            <Entry 
+                Text="{Binding ValString}"/>
+            <Picker
+                IsEnabled="{Binding ControlledSource}"
+                IsVisible="{Binding ControlledSource}"
+                Title="Select the controlling branch:"
+                ItemsSource="{Binding Branches}"
+                ItemDisplayBinding="{Binding Id}"
+                SelectedItem="{Binding ControlBranch}"/>
+        </VerticalStackLayout>
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            WidthRequest="120"
+            BackgroundColor="Red"
+            TextColor="Black"
+            Padding="10"
+            HorizontalOptions="Start"
+            Text="Cancel"
+            Command="{Binding CancelCommand}"/>
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            WidthRequest="120"
+            BackgroundColor="Blue"
+            TextColor="Black"
+            Padding="10"
+            HorizontalOptions="Start"
+            Text="Back"
+            Command="{Binding BackCommand}"/>
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            WidthRequest="120"
+            HorizontalOptions="End"
+            Padding="10"
+            BackgroundColor="Green"
+            TextColor="Black"
+            Text="Next"
+            Command="{Binding NextCommand}"/>
+    </Grid>
+</ContentPage>
